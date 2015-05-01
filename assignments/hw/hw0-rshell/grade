@@ -1,15 +1,15 @@
-80/ 100
+85/ 100
 
   -5: no error checking for syscalls (-5 for each syscall, run checksyscalls.sh script in gitlearn/scripts to see detailed output - it takes c++ source files as arguments)
   
 Extra credit: 10/10
   [ /10]all of prompts have the user information
 
-Part 1: 20/30
+Part 1: 25/30
   [ /5]run any command with no params
   [ /5]run any command with a small number of params
   [ /5]run any command with a large (>10) number of params
-  [0 /5]run both a command in `/bin` and a command in the current directory;
+  [ /5]run both a command in `/bin` and a command in the current directory;
 for example, run rshell from within rshell
   [ /5]if command doesn't exist, print appropriate error message
   [0 /5]commands with lots of spaces between parameters, e.g. `     ls      -a -l        -R`
